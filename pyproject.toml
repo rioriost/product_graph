@@ -1,0 +1,10 @@
+[project]
+name = "make-knowledge"
+authors = [{ name = "Rio Fujita", email = "rifujita@microsoft.com" }]
+version = "0.1.0"
+description = "Extract entities from text file and convert them to Graph"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=1.74.0",
+]

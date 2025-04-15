@@ -1,0 +1,19 @@
+{
+  "edge": {
+    "csv_path": "has_keywords.csv",
+    "type": "HAS_KEYWORD",
+    "props": [],
+    "start_vertex": {
+      "csv_path": "products.csv",
+      "id": "id",
+      "label": "Product",
+      "props": ["Name"]
+    },
+    "end_vertex": {
+      "csv_path": "keywords.csv",
+      "id": "id",
+      "label": "Keyword",
+      "props": ["Value"]
+    }
+  }
+}
